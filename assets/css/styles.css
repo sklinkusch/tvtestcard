@@ -1,0 +1,648 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+}
+
+.row::before, .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: darkslategrey;
+  float: left;
+}
+
+[class*='colorcol-'] {
+  width: 60px;
+  height: 120px;
+}
+
+.colorcol-1 {
+  background-color: lightgrey;
+  position: absolute;
+  left: 160px;
+  top: 80px;
+}
+
+.colorcol-2 {
+  background-color: yellow;
+  position: absolute;
+  left: 220px;
+  top: 80px;
+}
+
+.colorcol-3 {
+  background-color: lightgreen;
+  position: absolute;
+  left: 280px;
+  top: 80px;
+}
+
+.colorcol-4 {
+  background-color: greenyellow;
+  position: absolute;
+  left: 340px;
+  top: 80px;
+}
+
+.colorcol-5 {
+  background-color: hotpink;
+  position: absolute;
+  left: 400px;
+  top: 80px;
+}
+
+.colorcol-6 {
+  background-color: red;
+  position: absolute;
+  left: 460px;
+  top: 80px;
+}
+
+.colorcol-7 {
+  background-color: blue;
+  position: absolute;
+  left: 520px;
+  top: 80px;
+}
+
+.colorcol-8 {
+  background-color: black;
+  position: absolute;
+  left: 580px;
+  top: 80px;
+}
+
+[class*='greysquare-'] {
+  width: 96px;
+  height: 80px;
+}
+
+.greysquare-1 {
+  background-color: black;
+  position: absolute;
+  left: 160px;
+  top: 200px;
+}
+
+.greysquare-2 {
+  background-color: #444;
+  position: absolute;
+  left: 256px;
+  top: 200px;
+  border-bottom: 1px solid white;
+}
+
+.greysquarea-3, .greysquareb-3 {
+  background-color: #888;
+  width: 48px;
+  height: 80px;
+  border-bottom: 1px solid white;
+}
+
+.greysquarea-3 {
+  position: absolute;
+  left: 352px;
+  top: 200px;
+  border-right: 1px solid white;
+}
+
+.greysquareb-3 {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  border-left: 1px solid white;
+}
+
+.greysquare-4 {
+  background-color: #bbb;
+  position: absolute;
+  left: 448px;
+  top: 200px;
+  border-bottom: 1px solid white;
+}
+
+.greysquare-5 {
+  background-color: white;
+  position: absolute;
+  left: 544px;
+  top: 200px;
+}
+
+.white {
+  background-color: white;
+  height: 40px;
+  width: 96px;
+}
+
+.black {
+  background-color: black;
+  height: 40px;
+  width: 144px;
+}
+
+.xleft {
+  position: absolute;
+  left: 160px;
+  top: 280px;
+}
+
+.left {
+  position: absolute;
+  left: 256px;
+  top: 280px;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.right {
+  position: absolute;
+  left: 400px;
+  top: 280px;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.xright {
+  position: absolute;
+  left: 544px;
+  top: 280px;
+}
+
+.row-4 {
+  background-color: white;
+}
+
+.weiss {
+  width: 48px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 320px;
+  left: 160px;
+}
+
+.grau-1 {
+  width: 12px;
+  height: 40px;
+  background-color: #888;
+  position: absolute;
+  left: 208px;
+  top: 320px;
+}
+
+[class*='whitespace-A'] {
+  width: 9px;
+  height: 40px;
+  background-color: white;
+}
+.whitespace-A1 {
+  position: absolute;
+  left: 220px;
+  top: 320px;
+}
+
+[class*='breit-'] {
+  width: 9px;
+  height: 40px;
+  background: black;
+}
+
+.breit-1 {
+  position: absolute;
+  left: 229px;
+  top: 320px;
+}
+
+.whitespace-A2 {
+  position: absolute;
+  left: 238px;
+  top: 320px;
+}
+
+.breit-2 {
+  position: absolute;
+  left: 247px;
+  top: 320px;
+}
+
+.whitespace-A3 {
+  position: absolute;
+  left: 256px;
+  top: 320px;
+}
+
+.breit-3 {
+  position: absolute;
+  left: 265px;
+  top: 320px;
+}
+
+.whitespace-A4 {
+  position: absolute;
+  left: 274px;
+  top: 320px;
+}
+
+.breit-4 {
+  position: absolute;
+  left: 283px;
+  top: 320px;
+}
+
+.whitespace-A5 {
+  position: absolute;
+  left: 292px;
+  top: 320px;
+}
+
+.breit-5 {
+  position: absolute;
+  left: 301px;
+  top: 320px;
+}
+
+.grau-2 {
+  width: 12px;
+  height: 40px;
+  background-color: #888;
+  position: absolute;
+  left: 310px;
+  top: 320px;
+}
+
+[class*='whitespace-B'] {
+  background-color: white;
+  width: 3.3px;
+  height: 40px;
+}
+
+[class*='mittel-'] {
+  background-color: black;
+  width: 3.3px;
+  height: 40px;
+}
+
+.whitespace-B01 {
+  position: absolute;
+  left: 322px;
+  top: 320px;
+}
+.mittel-01 {
+  position: absolute;
+  left: 325.3px;
+  top: 320px;
+}
+.whitespace-B02 {
+  position: absolute;
+  left: 328.6px;
+  top: 320px;
+}
+.mittel-02 {
+  position: absolute;
+  left: 331.9px;
+  top: 320px;
+}
+.whitespace-B03 {
+  position: absolute;
+  left: 335.2px;
+  top: 320px;
+}
+.mittel-03 {
+  position: absolute;
+  left: 338.5px;
+  top: 320px;
+}
+.whitespace-B04 {
+  position: absolute;
+  left: 341.8px;
+  top: 320px;
+}
+.mittel-04 {
+  position: absolute;
+  left: 345.1px;
+  top: 320px;
+}
+.whitespace-B05 {
+  position: absolute;
+  left: 348.4px;
+  top: 320px;
+}
+.mittel-05 {
+  position: absolute;
+  left: 351.7px;
+  top: 320px;
+}
+.whitespace-B06 {
+  position: absolute;
+  left: 355px;
+  top: 320px;
+}
+.mittel-06 {
+  position: absolute;
+  left: 358.3px;
+  top: 320px;
+}
+.whitespace-B07 {
+  position: absolute;
+  left: 361.6px;
+  top: 320px;
+}
+.mittel-07 {
+  position: absolute;
+  left: 364.9px;
+  top: 320px;
+}
+.whitespace-B08 {
+  position: absolute;
+  left: 368.2px;
+  top: 320px;
+}
+.mittel-08 {
+  position: absolute;
+  left: 371.5px;
+  top: 320px;
+}
+.whitespace-B09 {
+  position: absolute;
+  left: 374.8px;
+  top: 320px;
+}
+.mittel-09 {
+  position: absolute;
+  left: 378.1px;
+  top: 320px;
+}
+.whitespace-B10 {
+  position: absolute;
+  left: 381.4px;
+  top: 320px;
+}
+.mittel-10 {
+  position: absolute;
+  left: 384.7px;
+  top: 320px;
+}
+.grau-3 {
+  width: 12px;
+  height: 40px;
+  background-color: #888;
+  position: absolute;
+  left: 388px;
+  top: 320px;
+  border-right: 1px solid white;
+}
+.grau-4 {
+  width: 12px;
+  height: 40px;
+  background-color: #888;
+  position: absolute;
+  left: 400px;
+  top: 320px;
+  border-left: 1px solid white;
+}
+[class*='whitespace-C'] {
+  background-color: white;
+  height: 40px;
+  width: 2px;
+}
+[class*='schmal-'] {
+  background-color: black;
+  height: 40px;
+  width: 2px;
+}
+.whitespace-C01 {
+  position: absolute;
+  left: 412px;
+  top: 320px;
+}
+.schmal-01 {
+  position: absolute;
+  left: 414px;
+  top: 320px;
+}
+.whitespace-C02 {
+  position: absolute;
+  left: 416px;
+  top: 320px;
+}
+.schmal-02 {
+  position: absolute;
+  left: 418px;
+  top: 320px;
+}
+.whitespace-C03 {
+  position: absolute;
+  left: 420px;
+  top: 320px;
+}
+.schmal-03 {
+  position: absolute;
+  left: 422px;
+  top: 320px;
+}
+.whitespace-C04 {
+  position: absolute;
+  left: 424px;
+  top: 320px;
+}
+.schmal-04 {
+  position: absolute;
+  left: 426px;
+  top: 320px;
+}
+.whitespace-C05 {
+  position: absolute;
+  left: 428px;
+  top: 320px;
+}
+.schmal-05 {
+  position: absolute;
+  left: 430px;
+  top: 320px;
+}
+.whitespace-C06 {
+  position: absolute;
+  left: 432px;
+  top: 320px;
+}
+.schmal-06 {
+  position: absolute;
+  left: 434px;
+  top: 320px;
+}
+.whitespace-C07 {
+  position: absolute;
+  left: 436px;
+  top: 320px;
+}
+.schmal-07 {
+  position: absolute;
+  left: 438px;
+  top: 320px;
+}
+.whitespace-C08 {
+  position: absolute;
+  left: 440px;
+  top: 320px;
+}
+.schmal-08 {
+  position: absolute;
+  left: 442px;
+  top: 320px;
+}
+.whitespace-C09 {
+  position: absolute;
+  left: 444px;
+  top: 320px;
+}
+.schmal-09 {
+  position: absolute;
+  left: 446px;
+  top: 320px;
+}
+.whitespace-C10 {
+  position: absolute;
+  left: 448px;
+  top: 320px;
+}
+.schmal-10 {
+  position: absolute;
+  left: 450px;
+  top: 320px;
+}
+.whitespace-C11 {
+  position: absolute;
+  left: 452px;
+  top: 320px;
+}
+.schmal-11 {
+  position: absolute;
+  left: 454px;
+  top: 320px;
+}
+.whitespace-C12 {
+  position: absolute;
+  left: 456px;
+  top: 320px;
+}
+.schmal-12 {
+  position: absolute;
+  left: 458px;
+  top: 320px;
+}
+.whitespace-C13 {
+  position: absolute;
+  left: 460px;
+  top: 320px;
+}
+.schmal-13 {
+  position: absolute;
+  left: 462px;
+  top: 320px;
+}
+.whitespace-C14 {
+  position: absolute;
+  left: 464px;
+  top: 320px;
+}
+.schmal-14 {
+  position: absolute;
+  left: 466px;
+  top: 320px;
+}
+.whitespace-C15 {
+  position: absolute;
+  left: 468px;
+  top: 320px;
+}
+.schmal-15 {
+  position: absolute;
+  left: 470px;
+  top: 320px;
+}
+.grau-5 {
+  width: 12px;
+  height: 40px;
+  background-color: #888;
+  position: absolute;
+  left: 472px;
+  top: 320px;
+}
+.orange {
+  height: 40px;
+  width: 132px;
+  background-color: orange;
+  position: absolute;
+  top: 320px;
+  left: 484px;
+}
+.grau-6 {
+  height: 40px;
+  width: 24px;
+  background-color: #888;
+  position: absolute;
+  left: 616px;
+  top: 320px;
+}
+.row-5 {
+  background-color: white;
+  width: 480px;
+  height: 40px;
+  position: absolute;
+  left: 160px;
+  top: 360px;
+}
+.triangle {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 40px 15px 0 0;
+border-color: #000000 transparent transparent transparent;
+position: absolute;
+top: 360px;
+left: 392.5px;
+}
+.redblack {
+  height: 40px;
+  width: 320px;
+  background-image: linear-gradient(to right, hotpink, black);
+  position: absolute;
+  left: 160px;
+  top: 400px;
+}
+.blueblack {
+  height: 40px;
+  width: 320px;
+  background-image: linear-gradient(to right, blue, black);
+  position: absolute;
+  left: 160px;
+  top: 440px;
+}
+.bottomright {
+  height: 80px;
+  width: 160px;
+  background: #888;
+  position: absolute;
+  left: 480px;
+  top: 400px;
+}
+.circle {
+  width: 540px;
+  height: 540px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  left: 130px;
+  top: 10px;
+}
